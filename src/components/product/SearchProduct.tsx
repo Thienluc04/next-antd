@@ -9,7 +9,7 @@ import { Flex, Input } from 'antd';
 import Image from 'next/image';
 import { useContext, useState } from 'react';
 import { AddProductPopup } from '../popup';
-import { ProductsContext } from '@/app/products/page';
+import ProductsContext from '@/utils/product-context';
 
 interface SearchProductProps {}
 

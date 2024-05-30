@@ -1,7 +1,7 @@
 import { Button } from 'antd';
 import { useContext, useState } from 'react';
 import { ChooseVoucherPopup } from '../popup';
-import { ProductsContext } from '@/app/products/page';
+import ProductsContext from '@/utils/product-context';
 
 interface ChooseVoucherProps {}
 

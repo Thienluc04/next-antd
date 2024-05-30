@@ -6,24 +6,9 @@ import {
   ProductsHeader,
   ProductsSidebar,
 } from '@/components/layout';
+import ProductsContext from '@/utils/product-context';
 import { Layout } from 'antd';
-import { createContext, useEffect, useState } from 'react';
-
-interface ProductsContextType {
-  showDetailProduct: boolean;
-  setShowDetailProduct: (value: boolean) => void;
-  voucher: string;
-  setVoucher: (value: string) => void;
-  listProduct: Product[];
-}
-
-export const ProductsContext = createContext<ProductsContextType>({
-  showDetailProduct: false,
-  setShowDetailProduct: () => {},
-  voucher: '',
-  setVoucher: () => {},
-  listProduct: [],
-});
+import { useEffect, useState } from 'react';
 
 export default function ProductsPage() {
   const [showDetailProduct, setShowDetailProduct] = useState(false);

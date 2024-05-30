@@ -1,4 +1,4 @@
-import { ProductsContext } from '@/app/products/page';
+import ProductsContext from '@/utils/product-context';
 import {
   FilterFilled,
   LeftOutlined,
@@ -9,8 +9,8 @@ import { Button, Flex } from 'antd';
 import { Content } from 'antd/es/layout/layout';
 import Image from 'next/image';
 import { useContext, useState } from 'react';
-import { ProductChoosedItem, ProductItem } from '../product';
 import { FilterByCategory, FilterByProperty } from '../drawer';
+import { ProductChoosedItem, ProductItem } from '../product';
 
 interface ProductsContentProps {}
 

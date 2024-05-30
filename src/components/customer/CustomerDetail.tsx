@@ -1,9 +1,9 @@
 import { useContext, useState } from 'react';
 import { UserIcon } from '../icons';
-import { ProductsContext } from '@/app/products/page';
 import { Flex } from 'antd';
 import { CloseCircleOutlined } from '@ant-design/icons';
 import { CustomerDetailPopup } from '../popup';
+import ProductsContext from '@/utils/product-context';
 
 interface CustomerDetailProps {
   currentUser?: User;

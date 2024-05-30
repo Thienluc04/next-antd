@@ -1,6 +1,5 @@
 'use client';
 
-import { ProductsContext } from '@/app/products/page';
 import { DownOutlined, GiftFilled } from '@ant-design/icons';
 import { Button, Dropdown, Flex, Radio, Space, Switch } from 'antd';
 import Sider from 'antd/es/layout/Sider';
@@ -13,6 +12,7 @@ import {
   ChooseVoucher,
   NoteInfo,
 } from '../product';
+import ProductsContext from '@/utils/product-context';
 
 interface ProductsSidebarProps {}
 

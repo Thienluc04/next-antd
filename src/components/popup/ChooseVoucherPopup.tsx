@@ -1,4 +1,4 @@
-import { ProductsContext } from '@/app/products/page';
+import ProductsContext from '@/utils/product-context';
 import { Button, Flex, Input, Modal, Radio } from 'antd';
 import { useContext, useState } from 'react';
 

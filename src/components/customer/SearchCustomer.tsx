@@ -8,8 +8,8 @@ import {
 import { Button, Flex, Input } from 'antd';
 import { useContext, useEffect, useState } from 'react';
 import { AddCustomerPopup } from '../popup';
-import { ProductsContext } from '@/app/products/page';
 import { getListUser } from '@/api-client/get-data';
+import ProductsContext from '@/utils/product-context';
 
 interface SearchCustomerProps {
   setCurrentUser: (user: User) => void;

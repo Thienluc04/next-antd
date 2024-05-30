@@ -15,8 +15,8 @@ import Paragraph from 'antd/es/typography/Paragraph';
 import { LocationIcon } from '../icons';
 import { SearchProduct } from '../product';
 import { useContext, useState } from 'react';
-import { ProductsContext } from '@/app/products/page';
 import { ShortcutPopup } from '../popup';
+import ProductsContext from '@/utils/product-context';
 
 interface ProductsHeaderProps {}
 
