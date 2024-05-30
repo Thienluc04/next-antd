@@ -1,0 +1,145 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nguyễn Hoàng Thu",
+      "address": "12 phường Thanh Xuân",
+      "phone_number": "0985672045",
+      "city": "Hà Nội",
+      "district": "Thanh Xuân",
+      "email": "hoangthu@gmail.com",
+      "birthday": "01-01-1999",
+      "gender": "Male"
+    },
+    {
+      "id": 2,
+      "name": "Mai Anh Tú",
+      "address": "12 phường Thanh Xuân",
+      "phone_number": "0985672046",
+      "city": "Hà Nội",
+      "district": "Thanh Xuân",
+      "email": "anhtu@gmail.com",
+      "birthday": "06-07-2000",
+      "gender": "Male"
+    },
+    {
+      "id": 3,
+      "name": "Cẩm Nhung",
+      "address": "14 phường Thanh Xuân",
+      "phone_number": "0985672047",
+      "city": "Hà Nội",
+      "district": "Thanh Xuân",
+      "email": "camnhung@gmail.com",
+      "birthday": "03-04-2001",
+      "gender": "Female"
+    },
+    {
+      "id": 4,
+      "name": "Hoàng Minh",
+      "address": "15 phường Thanh Xuân",
+      "phone_number": "0985672045",
+      "city": "Hà Nội",
+      "district": "Thanh Xuân",
+      "email": "hoangminh@gmail.com",
+      "birthday": "05-06-2002",
+      "gender": "Male"
+    },
+    {
+      "id": 5,
+      "name": "Nguyễn Hoàng Thu",
+      "address": "12 phường Thanh Xuân",
+      "phone_number": "0985672045",
+      "city": "Hà Nội",
+      "district": "Thanh Xuân",
+      "email": "hoangthu@gmail.com",
+      "birthday": "01-01-1999",
+      "gender": "Male"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Eclipse Banksia 2 Pen/1 File Pedestal",
+      "price": "10.00",
+      "color": "White",
+      "stock": 100
+    },
+    {
+      "id": 2,
+      "name": "Aragon Mesh Back Visitors Office Chair",
+      "price": "21.65",
+      "color": "Green",
+      "stock": 200
+    },
+    {
+      "id": 3,
+      "name": "Clara 4 Drawer Chest",
+      "price": "29.09",
+      "color": "Brown",
+      "stock": 150
+    },
+    {
+      "id": 4,
+      "name": "Eclipse Banksia 2 Pen/1 File Pedestal",
+      "price": "10.00",
+      "color": "White",
+      "stock": 100
+    },
+    {
+      "id": 5,
+      "name": "Aragon Mesh Back Visitors Office Chair",
+      "price": "21.65",
+      "color": "Green",
+      "stock": 200
+    },
+    {
+      "id": 6,
+      "name": "Clara 4 Drawer Chest",
+      "price": "29.09",
+      "color": "Brown",
+      "stock": 150
+    },
+    {
+      "id": 7,
+      "name": "Eclipse Banksia 2 Pen/1 File Pedestal",
+      "price": "10.00",
+      "color": "White",
+      "stock": 100
+    },
+    {
+      "id": 8,
+      "name": "Aragon Mesh Back Visitors Office Chair",
+      "price": "21.65",
+      "color": "Green",
+      "stock": 200
+    },
+    {
+      "id": 9,
+      "name": "Clara 4 Drawer Chest",
+      "price": "29.09",
+      "color": "Brown",
+      "stock": 150
+    },
+    {
+      "id": 10,
+      "name": "Eclipse Banksia 2 Pen/1 File Pedestal",
+      "price": "10.00",
+      "color": "White",
+      "stock": 100
+    },
+    {
+      "id": 11,
+      "name": "Aragon Mesh Back Visitors Office Chair",
+      "price": "21.65",
+      "color": "Green",
+      "stock": 200
+    },
+    {
+      "id": 12,
+      "name": "Clara 4 Drawer Chest",
+      "price": "29.09",
+      "color": "Brown",
+      "stock": 150
+    }
+  ]
+}
